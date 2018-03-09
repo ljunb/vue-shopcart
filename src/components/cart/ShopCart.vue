@@ -1,6 +1,6 @@
 <template>
   <div class="shop-cart">
-    <m-header></m-header>
+    <m-header title="Vue-ShopCart"></m-header>
     <m-cart-list></m-cart-list>
     <m-footer></m-footer>
   </div>

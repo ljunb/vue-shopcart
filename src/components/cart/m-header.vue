@@ -1,11 +1,15 @@
 <template>
   <div class="m-header">
-    vue-shopcart
+    {{ title }}
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    title: String,
+  },
+};
 </script>
 
 <style>
